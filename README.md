@@ -34,9 +34,11 @@ Resource Group
 └── Windows Virtual Machine
     └── Public IP
 
+```
 
 # Project Structure
 
+```text
 terraform-azure-enterprise-lab/
 │
 ├── main.tf
@@ -52,50 +54,47 @@ terraform-azure-enterprise-lab/
 │
 └── README.md
 
+```
 
 
-# Technologies used
+# Technologies Used
 
-Terraform
-Microsoft Azure
-Infrastructure as Code (IaC)
-
+- Terraform
+- Microsoft Azure
+- Infrastructure as Code (IaC)
 
 
 # Features
 
-Modular Terraform architecture
-Reusable variables and outputs
-Network segmentation
-Security rule configuration
-Azure VM deployment
-Infrastructure reproducibility
-
+- Modular Terraform architecture
+- Reusable variables and outputs
+- Network segmentation
+- Security rule configuration
+- Azure VM deployment
+- Infrastructure reproducibility
 
 
 # Learning Objectives
 
-Infrastructure as Code principles
-Azure resource deployment
-Terraform modularisation
-Secure network design
-Reusable infrastructure patterns
-
+- Infrastructure as Code principles
+- Azure resource deployment
+- Terraform modularisation
+- Secure network design
+- Reusable infrastructure patterns
 
 
 # Future Improvements
 
-Remote Terraform backend
-Azure Monitor integration
-Log Analytics Workspace
-CI/CD with GitHub Actions
-Multi-environment deployments
-Linux VM deployment
-Bastion Host implementation
-
+- Remote Terraform backend
+- Azure Monitor integration
+- Log Analytics Workspace
+- CI/CD with GitHub Actions
+- Multi-environment deployments
+- Linux VM deployment
+- Bastion Host implementation
 
 
 # Notes
 
-This repository was intentionally structured following a modular enterprise-style approach instead of a minimal lab deployment.
-The goal was to simulate how infrastructure projects are typically organised in real-world environments while improving Terraform and Azure automation skills.
+- This repository was intentionally structured following a modular enterprise-style approach instead of a minimal lab deployment.
+- The goal was to simulate how infrastructure projects are typically organised in real-world environments while improving Terraform and Azure automation skills.
